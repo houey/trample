@@ -1,12 +1,4 @@
-Trample is a tool for quickly enumerating AWS Organizations and their accounts recursively.
-It is written in bash and uses the AWS CLI to enumerate the accounts.
-Firstly it will use a privileged account to enumerate the accounts and then assume the OrganizationAccountAccessRole or a specific role for each account to enumerate the accounts recursively.
-results are saved to a file and can be resumed from the same file.
-each resource is saved in the format of a json object that is named: OrganizationID_OUNameAccountID_ResourceType.json
-Trample is a tool for quickly enumerating AWS Organizations and their accounts recursively.
-It is written in bash and uses the AWS CLI to enumerate the accounts.
-Firstly it will use a privileged account to enumerate the accounts and then assume the OrganizationAccountAccessRole or a specific role for each account to enumerate the accounts recursively.
-Results are saved to a file and can be resumed from the same file.
+
 Each resource is saved in the format of a json object that is named: OrganizationID_OUNameAccountID_ResourceType.json
 
 ## Usage
